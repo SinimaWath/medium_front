@@ -1,0 +1,19 @@
+.paginate {
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 100px;
+    color: white;
+}
+
+.pagiante__left {
+    cursor: pointer;
+    width: 50px;
+}
+
+.pagiante__right {
+    cursor: pointer;
+    width: 50px;
+}

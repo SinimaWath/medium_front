@@ -1,0 +1,49 @@
+.head_theme_posts {
+  background-color: #2B303A;
+}
+
+.content_theme_posts {
+  background-color: #2B303A;
+  height: 89%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.post_theme_posts {
+    margin: 150px auto 150px auto;
+    box-shadow: 0 0 20px 0 #1A1D23;
+    z-index: 3;
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .post_theme_posts {
+        margin: 0;
+        box-shadow: none;
+    }
+
+    .content_theme_posts {
+      background-color: #2B303A;
+      overflow: scroll;
+    }
+}
+  
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+  
+@media (min-width: 320px) and (max-width: 480px) {
+  .post_theme_posts {
+      margin: 0;
+      box-shadow: none;
+  }
+
+  .content_theme_posts {
+    padding: 0 0 10vh 0;
+  }
+}
